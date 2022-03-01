@@ -35,3 +35,14 @@ footer {
     justify-content: center;
     align-items: center;
 }
+a {
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+}
+a:hover {
+    color: rgb(238, 62, 62);
+}
+a:visited {
+    color: rgb(238, 62, 62);
+}
