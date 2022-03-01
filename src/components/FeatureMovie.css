@@ -1,0 +1,92 @@
+.featured {
+    height: 85vh;
+}
+.featured--vertical {
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, #111 10%, transparent 90%);
+}
+.featured--horizontal {
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to right, #111 30%, transparent 70%);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2rem;
+}
+.name {
+    font-size: 60px;
+    font-weight: bold;
+}
+.info {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    gap: 1rem;
+}
+.points {
+    color: #46d369;
+}
+.description {
+    color: #999;
+    max-width: 40%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5; 
+    -webkit-box-orient: vertical;
+}
+.buttons {
+    display: flex;
+    gap: 0.6rem;
+}
+.btn {
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 0.6rem 1.1rem;
+    text-decoration: none;
+    border-radius: 0.4rem;
+}
+.btn--watch {
+    background-color: white;
+    color: black;
+}
+.btn--mylist {
+    background-color: #333;
+    color: white;
+}
+.btn--mylist, .btn--watch {
+    opacity: 1;
+    transition: all ease 0.2s;
+}
+.btn--mylist:hover, .btn--watch:hover {
+    opacity: 0.7;
+}
+.genres {
+    color: #999;
+}
+
+@media (max-width: 750px) {
+    .featured {
+        height: 70vh;
+    }
+    .name {
+        font-size: 1.8rem;
+    }
+    .info {
+        font-size: 1rem;
+    }
+    .description {
+        font-size: 0.9rem;
+        max-width: 100%;
+    }
+    .btn--mylist, .btn--watch {
+        font-size: 1rem;
+    }
+    .genres {
+        font-size: 14px;
+    }
+}

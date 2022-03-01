@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Netflix Clone 💻
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub repo size](https://img.shields.io/github/repo-size/allbertuu/netflixclone?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/allbertuu/netflixclone?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/allbertuu/netflixclone?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/allbertuu/netflixclone?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/allbertuu/netflixclone?style=for-the-badge)
 
-## Available Scripts
+<img src="./screenshots/banner.png" alt="Imagem de vizualização do site">
 
-In the project directory, you can run:
+## 💬 Sobre o projeto
+> Este projeto foi criado com o objetivo de colocar em prática os conhecimentos adquiridos em ReactJS.
+>
+> Utilizei conceitos avançados de JavaScript ES6 como: manipulação do DOM com React, Arrays, Funções nativas, e manipulação do BOM. Apliquei conceitos de responsividade e flexbox. Voltado ao ReactJS utilizei Hooks, libs, manipulação de API (web services) e componentização avançada.
 
-### `npm start`
+## 💻 Tecnologias usadas
+- ReactJS
+- JavaScript ES6
+- HTML & CSS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📫 Contribuindo para <nome_do_projeto>
+Para contribuir com netflixclone, siga estas etapas:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Bifurque este repositório.
+2. Crie um branch: `git checkout -b <nome_branch>`.
+3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
+4. Envie para o branch original: `git push origin netflixclone / <local>`
+5. Crie a solicitação de pull.
 
-### `npm test`
+Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💡 Feito por
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://www.github.com/allbertuu">
+        <img src="https://avatars.githubusercontent.com/u/89992304?v=4" width="100px;" alt="Foto do Alberto Albuquerque no GitHub"/><br>
+        <sub>
+          <b>Alberto Albuquerque</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
