@@ -8,6 +8,8 @@
 
 <img src="./screenshots/banner.png" alt="Imagem de vizualização do site">
 
+🚀 [Acesse o site aqui!](http://netflixclone-allbertuu.vercel.app/) 🚀  
+
 ## 💬 Sobre o projeto
 > Este projeto foi criado com o objetivo de colocar em prática os conhecimentos adquiridos em ReactJS.
 >
