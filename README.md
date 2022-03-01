@@ -18,7 +18,7 @@
 - JavaScript ES6
 - HTML & CSS
 
-## 📫 Contribuindo para <nome_do_projeto>
+## 📫 Contribuindo para Netflix Clone
 Para contribuir com netflixclone, siga estas etapas:
 
 1. Bifurque este repositório.
