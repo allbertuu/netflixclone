@@ -1,5 +1,7 @@
 import React from 'react';
 import './FeatureMovie.css';
+import PlayArrowIcon from '@mui/icons-material/PlayArrow';
+import AddIcon from '@mui/icons-material/Add';
 
 export default ({ item }) => {
 
@@ -26,8 +28,8 @@ export default ({ item }) => {
                         </div>
                         <div className='description'>{item.overview}</div>
                         <div className='buttons'>
-                            <a href={`/watch/${item.id}`} className="btn btn--watch">▶ Assistir</a>
-                            <a href={`/list/add/${item.id}`} className="btn btn--mylist">+ Minha Lista</a>
+                            <a href={`/watch/${item.id}`} className="btn btn--watch"><PlayArrowIcon/> Assistir</a>
+                            <a href={`/list/add/${item.id}`} className="btn btn--mylist"><AddIcon/> Minha Lista</a>
                         </div>
                         <div className='genres'>
                             <strong>Gêneros: </strong> {genres.join(', ')}

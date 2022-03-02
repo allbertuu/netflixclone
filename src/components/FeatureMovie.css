@@ -46,17 +46,23 @@
 .btn {
     font-weight: bold;
     font-size: 1.1rem;
-    padding: 0.6rem 1.1rem;
     text-decoration: none;
     border-radius: 0.4rem;
+    padding: 0.4rem 0.8rem 0.4rem 0.4rem;
 }
 .btn--watch {
     background-color: white;
     color: black;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
 }
 .btn--mylist {
     background-color: #333;
     color: white;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
 }
 .btn--mylist, .btn--watch {
     opacity: 1;
