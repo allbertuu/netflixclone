@@ -28,21 +28,5 @@
     ">0.2%",
     "not dead",
     "not op_mini all"
-  ],
-  "description": "![GitHub repo size](https://img.shields.io/github/repo-size/allbertuu/netflixclone?style=for-the-badge)\r ![GitHub language count](https://img.shields.io/github/languages/count/allbertuu/netflixclone?style=for-the-badge)\r ![GitHub forks](https://img.shields.io/github/forks/allbertuu/netflixclone?style=for-the-badge)\r ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/allbertuu/netflixclone?style=for-the-badge)\r ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/allbertuu/netflixclone?style=for-the-badge)",
-  "main": "src/index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/allbertuu/netflixclone.git"
-  },
-  "keywords": [
-    "netflix-clone",
-    "reactjs"
-  ],
-  "author": "Alberto Albuquerque",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/allbertuu/netflixclone/issues"
-  },
-  "homepage": "https://github.com/allbertuu/netflixclone#readme"
+  ]
 }
