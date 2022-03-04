@@ -1,6 +1,6 @@
 {
   "name": "netflixclone",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.8.1",
@@ -31,7 +31,6 @@
   ],
   "description": "![GitHub repo size](https://img.shields.io/github/repo-size/allbertuu/netflixclone?style=for-the-badge)\r ![GitHub language count](https://img.shields.io/github/languages/count/allbertuu/netflixclone?style=for-the-badge)\r ![GitHub forks](https://img.shields.io/github/forks/allbertuu/netflixclone?style=for-the-badge)\r ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/allbertuu/netflixclone?style=for-the-badge)\r ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/allbertuu/netflixclone?style=for-the-badge)",
   "main": "src/index.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/allbertuu/netflixclone.git"
