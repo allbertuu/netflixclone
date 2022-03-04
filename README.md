@@ -1,4 +1,4 @@
-# Netflix Clone 💻
+# Netflix Clone 🎬
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/allbertuu/netflixclone?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/allbertuu/netflixclone?style=for-the-badge)
