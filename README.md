@@ -13,7 +13,7 @@
 ## 💬 Sobre o projeto
 > Este projeto tem o objetivo de recriar a interface da Netflix, colocando em prática os conhecimentos adquiridos em ReactJS.
 >
-> Utilizei conceitos avançados de JavaScript ES6 como: manipulação do DOM com React, Arrays, Funções nativas, e manipulação do BOM. Apliquei conceitos de responsividade e flexbox. Voltado ao ReactJS utilizei Hooks, libs, manipulação de API (web services), renderização condicional e componentização avançada.
+> Utilizei conceitos de JavaScript e ES6 como: manipulação do DOM com React, Arrays, Funções nativas e manipulação do BOM. Apliquei conceitos de responsividade e flexbox. Voltado ao ReactJS utilizei Hooks, libs, manipulação de API (web services), renderização condicional e componentização avançada (state lift).
 
 ## 💻 Tecnologias usadas
 - ReactJS
