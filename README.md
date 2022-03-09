@@ -1,4 +1,4 @@
-# Netflix Clone 💻
+# Netflix Clone 🎬
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/allbertuu/netflixclone?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/allbertuu/netflixclone?style=for-the-badge)
@@ -11,9 +11,9 @@
 🚀 [Acesse o site aqui!](http://netflixclone-allbertuu.vercel.app/) 🚀  
 
 ## 💬 Sobre o projeto
-> Este projeto foi criado com o objetivo de colocar em prática os conhecimentos adquiridos em ReactJS.
+> Este projeto tem o objetivo de recriar a interface da Netflix, colocando em prática os conhecimentos adquiridos em ReactJS.
 >
-> Utilizei conceitos avançados de JavaScript ES6 como: manipulação do DOM com React, Arrays, Funções nativas, e manipulação do BOM. Apliquei conceitos de responsividade e flexbox. Voltado ao ReactJS utilizei Hooks, libs, manipulação de API (web services), renderização condicional e componentização avançada.
+> Utilizei conceitos de JavaScript e ES6 como: manipulação do DOM, Map (iterações) e manipulação do BOM. Apliquei conceitos de responsividade e flexbox. Voltado ao ReactJS utilizei Hooks, libs, consumo de API REST (web services), useEffect, renderização condicional e componentização avançada (state lift).
 
 ## 💻 Tecnologias usadas
 - ReactJS
