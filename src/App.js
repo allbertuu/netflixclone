@@ -19,10 +19,10 @@ const App = () => {
 
       // pegando o featured
       let originals = list.filter(i => i.slug === 'originals');
-      let randomChoosen = Math.floor(Math.random() * (originals[0].items.results.length - 1));
-      let choosen = originals[0].items.results[randomChoosen];
-      let choosenInfo = await Tmdb.getMovieInfo(choosen.id, 'tv');
-      setFeatureData(choosenInfo);
+      let randomChosen = Math.floor(Math.random() * (originals[0].items.results.length - 1));
+      let chosen = originals[0].items.results[randomChosen];
+      let chosenInfo = await Tmdb.getMovieInfo(chosen.id, 'tv');
+      setFeatureData(chosenInfo);
     }
 
     loadAll();
@@ -55,9 +55,11 @@ const App = () => {
         ))}
       </section>
       <footer>
-        Feito com <span role="img" aria-label='coração'>❤</span> por <a href='https://github.com/allbertuu'>Alberto Albuquerque</a><br />
-        Direitos de imagem para Netflix<br />
-        Dados pegos do site Themoviedb.org
+        <span>Feito com <span role="img" aria-label='coração'>❤</span> por <a href='https://github.com/allbertuu'>Alberto Albuquerque</a></span>
+        <div className="separator"></div>
+        <span>Direitos de imagem para Netflix</span>
+        <div className="separator"></div>
+        <span>Dados extraídos do site Themoviedb.org</span>
       </footer>
 
       {movieList.length <= 0 &&
