@@ -24,16 +24,22 @@ h2 {
     display: inline-block;
     width: 150px;
     cursor: pointer;
+    border-bottom: 40px solid transparent;
 }
 .item img {
     width: 100%;
     transform: scale(0.9);
     transition: all ease 0.2s;
+    border-radius: 0.5rem;
+
+    -webkit-box-reflect: below 2px linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4));
 }
 .item img:hover {
     transform: scale(1);
 }
-.icon-left, .icon-right {
+
+.icon-left,
+.icon-right {
     position: absolute;
     width: 40px;
     background-color: rgba(0, 0, 0, 0.6);
@@ -55,7 +61,8 @@ h2 {
 }
 
 @media (max-width: 760px) {
-    .icon-left, .icon-right {
+    .icon-left,
+    .icon-right {
         opacity: 1;
     }
 }
