@@ -3,25 +3,45 @@ import './MovieRow.css';
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 
-export default ({ title, items }) => {
+const MovieRow = ({ title, items }) => {
 
     const [scrollX, setScrollX] = useState(-400);
 
     const handleLeftArrow = () => {
-        let x = scrollX + Math.round(window.innerWidth / 2);
-        if(x > 0) {
-            x = 0;
+        if (window.innerWidth < 768) {
+            let x = scrollX + Math.round(window.innerWidth / 2);
+            if(x > 0) {
+                x = 0;
+            }
+            setScrollX(x);
         }
-        setScrollX(x);
+        else {
+            let x = scrollX + Math.round(window.innerWidth / 5);
+            if(x > 0) {
+                x = 0;
+            }
+            setScrollX(x);
+        }
     }
 
     const handleRightArrow = () => {
-        let x = scrollX - Math.round(window.innerWidth / 2);
-        let listW = items.results.length * 150;
-        if((window.innerWidth - listW) > x) {
-            x = (window.innerWidth - listW) - 60;
+        if (window.innerWidth < 768) {
+            let x = scrollX - Math.round(window.innerWidth / 2);
+            let listW = items.results.length * 150;
+            if((window.innerWidth - listW) > x) {
+                x = (window.innerWidth - listW) - 60;
+            }
+            setScrollX(x);
         }
-        setScrollX(x);
+        else {
+            let x = scrollX - Math.round(window.innerWidth / 5);
+            let listW = items.results.length * 150;
+            if((window.innerWidth - listW) > x) {
+                x = (window.innerWidth - listW) - 60;
+            }
+            setScrollX(x);
+        }
+
     }
 
     return (
@@ -52,3 +72,5 @@ export default ({ title, items }) => {
         </div>
     );
 }
+
+export default MovieRow
