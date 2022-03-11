@@ -11,9 +11,16 @@
 h2 {
     margin: 0 0 0 30px;
 }
+h2::first-letter {
+    text-decoration: underline rgb(238, 62, 62);
+    font-size: 1.6rem;
+} 
 @media (max-width: 760px) {
     h2 {
         font-size: 1.4rem;
+    }
+    h2::first-letter {
+        font-size: 1.5rem;
     }
 }
 .listarea {
