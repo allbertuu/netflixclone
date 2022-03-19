@@ -64,7 +64,7 @@ const MovieRow = ({ title, items }) => {
                 }}>
                     {items.results.length > 0 && items.results.map((item, key) => (
                         <div key={key} className="item">
-                            <img src={`https://image.tmdb.org/t/p/w300${item.poster_path}`} alt={item.original_title}></img>
+                            <img src={`https://image.tmdb.org/t/p/w300${item.poster_path}`} alt={item.original_title} loading="lazy" ></img>
                         </div>
                     ))}
                 </div>
