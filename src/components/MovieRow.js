@@ -3,7 +3,7 @@ import './MovieRow.scss';
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 
-const MovieRow = ({ title, items }) => {
+function MovieRow({ title, items }) {
 
     const [scrollX, setScrollX] = useState(-400);
 
@@ -41,7 +41,6 @@ const MovieRow = ({ title, items }) => {
             }
             setScrollX(x);
         }
-
     }
 
     return (
@@ -69,6 +68,7 @@ const MovieRow = ({ title, items }) => {
                     ))}
                 </div>
             </div>
+            
         </div>
     );
 }

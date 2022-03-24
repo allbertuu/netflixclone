@@ -1,7 +1,7 @@
 import React from "react";
 import './Header.scss';
 
-export default ({black}) => {
+ function Header({black}) {
     return (
         <header className={black ? 'black' : ''}>
             <div className="logo">
@@ -17,3 +17,5 @@ export default ({black}) => {
         </header>
     );
 }
+
+export default Header

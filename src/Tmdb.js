@@ -18,8 +18,8 @@ const basicFetch = async (endpoint) => {
     return json;
 }
 
-export default {
-    getHomeList: async() => {
+const Tmdb = {
+    getHomeList: async () => {
         return [
             {
                 slug: 'originals',
@@ -66,16 +66,20 @@ export default {
     getMovieInfo: async (movieId, type) => {
         let info = {};
 
-        if(movieId) {
-            switch(type) {
+        if (movieId) {
+            switch (type) {
                 case 'movie':
                     info = await basicFetch(`/movie/${movieId}?language=pt-BR&api_key=${API_KEY}`);
                     break;
                 case 'tv':
                     info = await basicFetch(`/tv/${movieId}?language=pt-BR&api_key=${API_KEY}`);
                     break;
+                default:
+                    break;
             }
         }
         return info;
     }
 }
+
+export default Tmdb

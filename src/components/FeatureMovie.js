@@ -3,7 +3,7 @@ import './FeatureMovie.scss';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import AddIcon from '@mui/icons-material/Add';
 
-export default ({ item }) => {
+function FeatureMovie({ item }) {
 
     let firstDate = new Date(item.first_air_date);
     let genres = [];
@@ -40,3 +40,5 @@ export default ({ item }) => {
         </div>
     );
 }
+
+export default FeatureMovie
