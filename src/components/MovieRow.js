@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import './MovieRow.css';
+import React, { useState } from "react";
+import './MovieRow.scss';
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 
@@ -10,14 +10,14 @@ const MovieRow = ({ title, items }) => {
     const handleLeftArrow = () => {
         if (window.innerWidth < 768) {
             let x = scrollX + Math.round(window.innerWidth / 2);
-            if(x > 0) {
+            if (x > 0) {
                 x = 0;
             }
             setScrollX(x);
         }
         else {
             let x = scrollX + Math.round(window.innerWidth / 5);
-            if(x > 0) {
+            if (x > 0) {
                 x = 0;
             }
             setScrollX(x);
@@ -28,7 +28,7 @@ const MovieRow = ({ title, items }) => {
         if (window.innerWidth < 768) {
             let x = scrollX - Math.round(window.innerWidth / 2);
             let listW = items.results.length * 150;
-            if((window.innerWidth - listW) > x) {
+            if ((window.innerWidth - listW) > x) {
                 x = (window.innerWidth - listW) - 60;
             }
             setScrollX(x);
@@ -36,7 +36,7 @@ const MovieRow = ({ title, items }) => {
         else {
             let x = scrollX - Math.round(window.innerWidth / 5);
             let listW = items.results.length * 150;
-            if((window.innerWidth - listW) > x) {
+            if ((window.innerWidth - listW) > x) {
                 x = (window.innerWidth - listW) - 60;
             }
             setScrollX(x);
@@ -50,13 +50,13 @@ const MovieRow = ({ title, items }) => {
             <h2>{title}</h2>
 
             <div className="icon-left" onClick={handleLeftArrow}>
-                <NavigateBeforeIcon style={{fontSize:50}}/>
+                <NavigateBeforeIcon style={{ fontSize: 50 }} />
             </div>
 
             <div className="icon-right" onClick={handleRightArrow}>
-                <NavigateNextIcon style={{fontSize:50}}/>
+                <NavigateNextIcon style={{ fontSize: 50 }} />
             </div>
-            
+
             <div className="listarea">
                 <div className="list" style={{
                     marginLeft: scrollX,

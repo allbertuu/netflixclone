@@ -29,5 +29,9 @@
     ">0.2%",
     "not dead",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "sass": "^1.49.9",
+    "typescript": "^4.6.2"
+  }
 }

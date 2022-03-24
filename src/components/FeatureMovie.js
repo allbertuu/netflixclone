@@ -1,5 +1,5 @@
 import React from 'react';
-import './FeatureMovie.css';
+import './FeatureMovie.scss';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import AddIcon from '@mui/icons-material/Add';
 
@@ -37,6 +37,6 @@ export default ({ item }) => {
                     </div>
                 </div>
             </section>
-        </div >
+        </div>
     );
 }
