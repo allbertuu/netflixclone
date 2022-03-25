@@ -1,7 +1,10 @@
 import React, { useState } from "react";
-import './MovieRow.scss';
+
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
+import imgError from '../assets/imgs/error-img.svg';
+
+import './MovieRow.scss';
 
 function MovieRow({ title, items }) {
 
@@ -63,7 +66,12 @@ function MovieRow({ title, items }) {
                 }}>
                     {items.results.length > 0 && items.results.map((item, key) => (
                         <div key={key} className="item">
-                            <img src={`https://image.tmdb.org/t/p/w300${item.poster_path}`} alt={item.original_title} loading="lazy" ></img>
+                            {item.poster_path !== null &&
+                                <img src={`https://image.tmdb.org/t/p/w300${item.poster_path}`} alt={item.original_title} loading="lazy" ></img>
+                            }
+                            {item.poster_path === null &&
+                                <img src={imgError} alt="Em breve" loading="lazy" ></img>
+                            }
                         </div>
                     ))}
                 </div>
