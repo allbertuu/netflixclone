@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
+
 import Tmdb from './Tmdb';
 import MovieRow from './components/MovieRow';
-import './App.scss'
 import FeatureMovie from './components/FeatureMovie';
 import Header from './components/Header';
+
+import './App.scss'
 
 const App = () => {
 
