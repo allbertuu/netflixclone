@@ -40,6 +40,9 @@
 
 ### What I learned 📚
 
+🎉I'm proud of this:  
+[Function of side arrows](./screenshots/proudOfThis.png)
+
 > **General development**: 
 >- Fetch and control API REST in React.js
 
@@ -51,7 +54,7 @@
 - Improvement of my thinking logic in building the website structure right at the beginning of the entire building process  
 #### JavaScript
 - Handle scroll event
-- Controling the list of movies with user clicks
+- Controlling the list of movies when the user clicks on both side arrows
 #### React.js
 - Using map loop for create dynamic elements
 - Components with conditional styles
