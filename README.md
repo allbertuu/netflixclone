@@ -3,35 +3,69 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/allbertuu/netflixclone?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/allbertuu/netflixclone?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/allbertuu/netflixclone?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/allbertuu/netflixclone?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/allbertuu/netflixclone?style=for-the-badge)
+<!-- ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/allbertuu/netflixclone?style=for-the-badge) -->
+<!-- ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/allbertuu/netflixclone?style=for-the-badge) -->
 
-<img src="./screenshots/banner.png" alt="Imagem de vizualização do site">
+## Table of contents
 
-🚀 [Acesse o site aqui!](http://netflixclone-allbertuu.vercel.app/) 🚀  
+- [Overview](#overview)
+  - [Screenshot](#screenshot-)
+  - [Links](#links-)
+- [My process](#my-process)
+  - [Built with](#built-with-)
+  - [What I learned](#what-i-learned-)
+  - [Continued development](#continued-development-)
+- [Author](#author-%EF%B8%8F)
 
-## 💬 Sobre o projeto
-> Este projeto tem o objetivo de recriar a interface da Netflix, colocando em prática os conhecimentos adquiridos em ReactJS.
->
-> Utilizei conceitos de JavaScript ES6, manipulação do DOM, loops em componentes e manipulação do BOM. Apliquei conceitos de responsividade e flexbox. Voltado ao ReactJS utilizei Hooks, libs, consumo de API REST (web services), useEffect, renderização condicional e state lift.
+## Overview
 
-## 💻 Tecnologias usadas
-- ReactJS
-- JavaScript ES6
-- HTML & CSS
+### Screenshot 📷
 
-## 📫 Contribuindo para Netflix Clone
-Para contribuir com netflixclone, siga estas etapas:
+![Main image of website](./screenshots/banner.png)
 
-1. Bifurque este repositório.
-2. Crie um branch: `git checkout -b <nome_branch>`.
-3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-4. Envie para o branch original: `git push origin netflixclone / <local>`
-5. Crie a solicitação de pull.
+### Links 🚀
 
-Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+- Live Site URL: [Access here!](http://netflixclone-allbertuu.vercel.app/)
 
-## 💡 Feito por
+## My process 
+
+### Built with ⚙
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Sass preprocessor
+- Mobile-first workflow <!-- - MUI React icons lib -->
+- [ScrollReveal](https://scrollrevealjs.org/) - JS library
+- [React](https://reactjs.org/) - JS library
+
+### What I learned 📚
+
+> **General development**: 
+>- Fetch and control API REST in React.js
+
+#### CSS
+- More knowledge about building responsive websites
+- Changing the color of elements that has been highlighted by the user
+- Elegant animations of elements
+#### HTML
+- Improvement of my thinking logic in building the website structure right at the beginning of the entire building process  
+#### JavaScript
+- Handle scroll event
+- Controling the list of movies with user clicks
+#### React.js
+- Using map loop for create dynamic elements
+- Components with conditional styles
+
+### Continued development 🎯
+
+- Refine my knowledge of create responsive pages
+
+## Author 🙎🏻‍♂️
+
+- Website - [Alberto Albuquerque](https://portfolio-allbertuu.vercel.app/)
+- Frontend Mentor - [@allbertuu](https://www.frontendmentor.io/profile/allbertuu)
+- LinkedIn - [Alberto Albuquerque](https://www.linkedin.com/in/albertov-albuquerque/)
 
 <table>
   <tr>
@@ -46,4 +80,5 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
   </tr>
 </table>
 
-[⬆ Voltar ao topo](#netflix-clone-)<br>
+[Back to the 🔝](#netflix-clone-)<br>
+
