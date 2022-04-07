@@ -41,7 +41,8 @@
 ### What I learned 📚
 
 🎉I'm proud of this:  
-[Function of side arrows](./screenshots/proudOfThis.png)
+<!-- ![Function of side arrows](./screenshots/proudOfThis.png) -->
+<img src='./screenshots/proudOfThis.png' style='width: 50%;'>
 
 > **General development**: 
 >- Fetch and control API REST in React.js
