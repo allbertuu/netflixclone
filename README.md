@@ -35,8 +35,7 @@
 - CSS custom properties
 - Flexbox
 - Sass preprocessor
-- Mobile-first workflow <!-- - MUI React icons lib -->
-- [ScrollReveal](https://scrollrevealjs.org/) - JS library
+- Mobile-first workflow <!-- - MUI React icons lib --> <!-- - [ScrollReveal](https://scrollrevealjs.org/) - JS library -->
 - [React](https://reactjs.org/) - JS library
 
 ### What I learned 📚
