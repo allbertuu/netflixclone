@@ -45,7 +45,7 @@
 <img src='./screenshots/proudOfThis.png' style='width: 50%;'>
 
 > **General development**: 
->- Fetch and control API REST in React.js
+>- Fetch and control REST API with React.js
 
 #### CSS
 - More knowledge about building responsive websites
