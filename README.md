@@ -34,7 +34,7 @@
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Sass preprocessor
+- Scss preprocessor
 - Mobile-first workflow <!-- - MUI React icons lib --> <!-- - [ScrollReveal](https://scrollrevealjs.org/) - JS library -->
 - [React](https://reactjs.org/) - JS library
 
