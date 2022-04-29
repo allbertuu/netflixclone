@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 // components
-import Tmdb from './Tmdb';
 import MovieRow from './components/MovieRow';
 import FeatureMovie from './components/FeatureMovie';
 import Header from './components/Header';
+// scripts
+import Tmdb from './Tmdb';
 // styles
 import './App.scss'
 
