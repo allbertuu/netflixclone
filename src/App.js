@@ -4,9 +4,9 @@ import MovieRow from './components/MovieRow';
 import FeatureMovie from './components/FeatureMovie';
 import Header from './components/Header';
 // scripts
-import Tmdb from './Tmdb';
+import Tmdb from './services/Tmdb';
 // styles
-import './App.scss'
+import './App.scss';
 
 const App = () => {
 
