@@ -1,17 +1,18 @@
-import React, { useState } from "react";
-// import ScrollReveal from 'scrollreveal';
-
+import React, { useState, useEffect } from "react";
+// imgs and icons
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import imgError from '../assets/imgs/error-img.svg';
-
+// scripts
+import { initScrollReveal } from "../assets/scripts/ScrollReveal";
+// styles
 import './MovieRow.scss';
 
 function MovieRow({ title, items }) {
 
-  // ScrollReveal().reveal('.list', { 
-  //     opacity: 0.2,
-  // });
+  useEffect(() => {
+    initScrollReveal();
+  }, []);
 
   const [scrollX, setScrollX] = useState(-400);
 
@@ -52,7 +53,7 @@ function MovieRow({ title, items }) {
   }
 
   return (
-    <div className="movieRow">
+    <div className="movieRow delayMediumReveal intervalCardReveal">
 
       <h2>{title}</h2>
 

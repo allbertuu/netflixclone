@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
-
+// components
 import Tmdb from './Tmdb';
 import MovieRow from './components/MovieRow';
 import FeatureMovie from './components/FeatureMovie';
 import Header from './components/Header';
-
+// styles
 import './App.scss'
 
 const App = () => {
@@ -56,6 +56,7 @@ const App = () => {
           <MovieRow key={key} title={item.title} items={item.items} />
         ))}
       </section>
+
       <footer>
         <span>Feito com <span role="img" aria-label='coração'>❤</span> por <a href='https://github.com/allbertuu'>Alberto Albuquerque</a></span>
         <div className="separator"></div>

@@ -1,4 +1,5 @@
 import React from "react";
+// styles
 import './Header.scss';
 
 function Header({ black }) {
