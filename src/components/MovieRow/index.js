@@ -4,9 +4,9 @@ import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import imgError from '../assets/imgs/error-img.svg';
 // scripts
-import { initScrollReveal } from "../assets/scripts/ScrollReveal";
+import { initScrollReveal } from "../../assets/scripts/ScrollReveal";
 // styles
-import './MovieRow.scss';
+import './style.scss';
 
 function MovieRow({ title, items }) {
 

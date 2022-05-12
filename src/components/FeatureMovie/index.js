@@ -3,7 +3,7 @@ import React from 'react';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import AddIcon from '@mui/icons-material/Add';
 // styles
-import './FeatureMovie.scss';
+import './style.scss';
 
 function FeatureMovie({ item }) {
 

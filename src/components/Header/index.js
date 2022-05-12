@@ -1,6 +1,6 @@
 import React from "react";
 // styles
-import './Header.scss';
+import './style.scss';
 
 function Header({ black }) {
   return (
