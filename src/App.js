@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 // components
 import MovieRow from './components/MovieRow';
 import FeatureMovie from './components/FeatureMovie';
