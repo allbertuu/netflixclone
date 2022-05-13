@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 // imgs and icons
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
-import imgError from '../assets/imgs/error-img.svg';
+import errorImg from '../../assets/imgs/error-img.svg';
 // scripts
 import { initScrollReveal } from "../../assets/scripts/ScrollReveal";
 // styles
@@ -76,7 +76,7 @@ function MovieRow({ title, items }) {
                 <img src={`https://image.tmdb.org/t/p/w300${item.poster_path}`} alt={item.original_title} loading="lazy" ></img>
               }
               {item.poster_path === null &&
-                <img src={imgError} alt="Em breve" loading="lazy" ></img>
+                <img src={errorImg} alt="Em breve" loading="lazy" ></img>
               }
             </div>
           ))}
