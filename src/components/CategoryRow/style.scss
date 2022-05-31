@@ -1,12 +1,12 @@
-.movieRow {
+.c-category-row {
   margin-bottom: 30px;
 
   * {
     user-select: none;
   }
 }
-.movieRow:hover .icon-left,
-.movieRow:hover .icon-right {
+.c-category-row:hover .icon-left,
+.c-category-row:hover .icon-right {
   opacity: 1;
 }
 

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 // components
-import MovieRow from './components/MovieRow';
+import CategoryRow from './components/CategoryRow';
 import FeatureMovie from './components/FeatureMovie';
 import Header from './components/Header';
 // scripts
@@ -51,8 +51,8 @@ const App = () => {
       }
 
       <section className='lista'>
-        {netflixCategories.map((item) => (
-          <MovieRow key={item.slug} title={item.title} items={item.items} />
+        {netflixCategories.map((category) => (
+          <CategoryRow key={category.slug} title={category.title} movies={category.items} />
         ))}
       </section>
 

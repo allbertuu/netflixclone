@@ -8,7 +8,7 @@ import { initScrollReveal } from "../../assets/scripts/ScrollReveal";
 // styles
 import './style.scss';
 
-function MovieRow({ title, items }) {
+function CategoryRow({ title, movies }) {
 
   useEffect(() => {
     initScrollReveal();
@@ -36,7 +36,7 @@ function MovieRow({ title, items }) {
   const handleRightArrow = () => {
     if (window.innerWidth < 768) {
       let x = scrollX - Math.round(window.innerWidth / 2);
-      let listW = items.results.length * 150;
+      let listW = movies.results.length * 150;
       if ((window.innerWidth - listW) > x) {
         x = (window.innerWidth - listW) - 60;
       }
@@ -44,7 +44,7 @@ function MovieRow({ title, items }) {
     }
     else {
       let x = scrollX - Math.round(window.innerWidth / 5);
-      let listW = items.results.length * 150;
+      let listW = movies.results.length * 150;
       if ((window.innerWidth - listW) > x) {
         x = (window.innerWidth - listW) - 60;
       }
@@ -53,7 +53,7 @@ function MovieRow({ title, items }) {
   }
 
   return (
-    <div className="movieRow delayMediumReveal intervalCardReveal">
+    <div className="c-category-row delayMediumReveal intervalCardReveal">
 
       <h2>{title}</h2>
 
@@ -68,14 +68,13 @@ function MovieRow({ title, items }) {
       <div className="listarea">
         <div className="list" style={{
           marginLeft: scrollX,
-          width: items.results.length * 150
+          width: movies.results.length * 150
         }}>
-          {items.results.length > 0 && items.results.map((item) => (
+          {movies.results.length > 0 && movies.results.map((item) => (
             <div key={item.id} className="item">
-              {item.poster_path !== null &&
+              {item.poster_path ?
                 <img src={`https://image.tmdb.org/t/p/w300${item.poster_path}`} alt={item.original_name} loading="lazy" ></img>
-              }
-              {item.poster_path === null &&
+                :
                 <img src={errorImg} alt="Em breve" loading="lazy" ></img>
               }
             </div>
@@ -87,4 +86,4 @@ function MovieRow({ title, items }) {
   );
 }
 
-export default MovieRow
+export default CategoryRow
