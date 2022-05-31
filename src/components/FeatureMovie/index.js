@@ -36,7 +36,7 @@ function FeatureMovie({ item }) {
             </div>
             {genres.length !== 0 &&
               <div className='genres'>
-                <strong>Gêneros: </strong> {genres.join(', ')}
+                <strong>Gênero{genres.length > 1 ? 's' : ''}: </strong> {genres.join(', ')}
               </div>
             }
           </div>
