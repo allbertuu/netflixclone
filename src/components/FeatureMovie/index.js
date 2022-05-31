@@ -4,12 +4,12 @@ import AddIcon from '@mui/icons-material/Add';
 // styles
 import './style.scss';
 
-function FeatureMovie({ item }) {
+function FeatureMovie({ movie }) {
 
-  let firstDate = new Date(item.first_air_date);
+  let firstDate = new Date(movie.first_air_date);
   let genres = [];
-  for (let i in item.genres) {
-    genres.push(item.genres[i].name);
+  for (let i in movie.genres) {
+    genres.push(movie.genres[i].name);
   }
 
   return (
@@ -17,22 +17,22 @@ function FeatureMovie({ item }) {
       <section className='featured' style={{
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        backgroundImage: `url(https://image.tmdb.org/t/p/original${item.backdrop_path})`
+        backgroundImage: `url(https://image.tmdb.org/t/p/original${movie.backdrop_path})`
       }}>
         <div className='featured--vertical'>
           <div className='featured--horizontal'>
-            <div className='name'>{item.original_name}</div>
+            <div className='name'>{movie.original_name}</div>
             <div className='info'>
-              {item.vote_average !== 0 &&
-                <div className='points'>{item.vote_average} pontos</div>
+              {movie.vote_average !== 0 &&
+                <div className='points'>{movie.vote_average} pontos</div>
               }
               <div>{firstDate.getFullYear()}</div>
-              <div>{item.number_of_seasons} temporada{item.number_of_seasons !== 1 ? 's' : ''}</div>
+              <div>{movie.number_of_seasons} temporada{movie.number_of_seasons !== 1 ? 's' : ''}</div>
             </div>
-            <div className='description'>{item.overview}</div>
+            <div className='description'>{movie.overview}</div>
             <div className='buttons'>
-              <a href={`/watch/${item.id}`} className="btn btn--watch"><PlayArrowIcon /> Assistir</a>
-              <a href={`/list/add/${item.id}`} className="btn btn--mylist"><AddIcon /> Minha Lista</a>
+              <a href={`/watch/${movie.id}`} className="btn btn--watch"><PlayArrowIcon /> Assistir</a>
+              <a href={`/list/add/${movie.id}`} className="btn btn--mylist"><AddIcon /> Minha Lista</a>
             </div>
             {genres.length !== 0 &&
               <div className='genres'>

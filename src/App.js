@@ -47,7 +47,7 @@ const App = () => {
       <Header black={blackHeader} />
 
       {featureData &&
-        <FeatureMovie item={featureData} />
+        <FeatureMovie movie={featureData} />
       }
 
       <section className='lista'>
