@@ -53,8 +53,8 @@ const App = () => {
       }
 
       <section className='lista'>
-        {movieList.map((item, key) => (
-          <MovieRow key={key} title={item.title} items={item.items} />
+        {movieList.map((item) => (
+          <MovieRow key={item.slug} title={item.title} items={item.items} />
         ))}
       </section>
 

@@ -70,10 +70,10 @@ function MovieRow({ title, items }) {
           marginLeft: scrollX,
           width: items.results.length * 150
         }}>
-          {items.results.length > 0 && items.results.map((item, key) => (
-            <div key={key} className="item">
+          {items.results.length > 0 && items.results.map((item) => (
+            <div key={item.id} className="item">
               {item.poster_path !== null &&
-                <img src={`https://image.tmdb.org/t/p/w300${item.poster_path}`} alt={item.original_title} loading="lazy" ></img>
+                <img src={`https://image.tmdb.org/t/p/w300${item.poster_path}`} alt={item.original_name} loading="lazy" ></img>
               }
               {item.poster_path === null &&
                 <img src={errorImg} alt="Em breve" loading="lazy" ></img>
