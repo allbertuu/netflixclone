@@ -16,11 +16,9 @@ const App = () => {
 
   useEffect(() => {
     const loadAll = async () => {
-      // pegando a lista total
       let list = await Tmdb.getHomeList();
       setMovieList(list);
 
-      // pegando o featured
       let originals = list.filter(i => i.slug === 'originals');
       let randomChosen = Math.floor(Math.random() * (originals[0].items.results.length - 1));
       let chosen = originals[0].items.results[randomChosen];
@@ -66,10 +64,12 @@ const App = () => {
         <span>Dados extraídos do site Themoviedb.org</span>
       </footer>
 
-      {movieList.length <= 0 &&
+      {movieList.length <= 0 ?
         <div className='loading'>
           <img src='https://media.filmelier.com/noticias/br/2020/03/Netflix_LoadTime.gif' alt='Carregando' />
         </div>
+        :
+        null
       }
 
     </div>
