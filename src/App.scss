@@ -2,11 +2,13 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 :root {
     --red: rgb(238, 62, 62);
-    --light-red: rgb(245, 47, 47);
+    --red-light: rgb(245, 47, 47);
     --green: #46d369;
 }
 
@@ -17,7 +19,6 @@
 body {
     background-color: #111;
     color: white;
-    margin: 0;
     font-family: "Roboto", sans-serif;
 
     // scrollbar
@@ -25,12 +26,12 @@ body {
         width: 0.8rem;
     }
     &::-webkit-scrollbar-track {
-        background: rgb(31, 31, 31);
+        background: #111;
     }
     &::-webkit-scrollbar-thumb {
-        background-color: var(--light-red);
+        background-color: var(--red-light);
         border-radius: 1.2rem;
-        border: 3px solid rgb(31, 31, 31);
+        border: 3px solid #111;
     }
 }
 
@@ -80,11 +81,9 @@ a {
     text-decoration: underline;
     font-weight: bold;
 
-    &:hover {
-        color: var(--red);
-    }
+    &:hover,
     &:visited {
-        color: rgb(192, 51, 51);
+        color: var(--red);
     }
 }
 
