@@ -3,8 +3,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/allbertuu/netflixclone?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/allbertuu/netflixclone?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/allbertuu/netflixclone?style=for-the-badge)
-<!-- ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/allbertuu/netflixclone?style=for-the-badge) -->
-<!-- ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/allbertuu/netflixclone?style=for-the-badge) -->
 
 ## Table of contents
 
@@ -35,17 +33,18 @@
 - CSS custom properties
 - Flexbox
 - Scss preprocessor
-- Mobile-first workflow <!-- - MUI React icons lib --> <!-- - [ScrollReveal](https://scrollrevealjs.org/) - JS library -->
+- Mobile-first workflow
+- MUI React icons lib
+- [ScrollReveal](https://scrollrevealjs.org/) - JS library
 - [React](https://reactjs.org/) - JS library
 
 ### What I learned 📚
 
 🎉I'm proud of this:  
-<!-- ![Function of side arrows](./screenshots/proudOfThis.png) -->
 <img src='./screenshots/proudOfThis.png' style='width: 50%;'>
 
 > **General development**: 
->- Fetch and use the data of REST API with React.js
+>- Fetch and consuming REST API with React.js
 
 #### CSS
 - More knowledge about building responsive websites
