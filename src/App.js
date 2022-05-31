@@ -10,16 +10,16 @@ import './App.scss';
 
 const App = () => {
 
-  const [movieList, setMovieList] = useState([]);
+  const [netflixCategories, setNetflixCategories] = useState([]);
   const [featureData, setFeatureData] = useState(null);
   const [blackHeader, setBlackHeader] = useState(false);
 
   useEffect(() => {
     const loadAll = async () => {
-      let list = await Tmdb.getHomeList();
-      setMovieList(list);
+      let categoriesList = await Tmdb.getHomeList();
+      setNetflixCategories(categoriesList);
 
-      let originals = list.filter(i => i.slug === 'originals');
+      let originals = categoriesList.filter(i => i.slug === 'originals');
       let randomChosen = Math.floor(Math.random() * (originals[0].items.results.length - 1));
       let chosen = originals[0].items.results[randomChosen];
       let chosenInfo = await Tmdb.getMovieInfo(chosen.id, 'tv');
@@ -51,7 +51,7 @@ const App = () => {
       }
 
       <section className='lista'>
-        {movieList.map((item) => (
+        {netflixCategories.map((item) => (
           <MovieRow key={item.slug} title={item.title} items={item.items} />
         ))}
       </section>
@@ -64,7 +64,7 @@ const App = () => {
         <span>Dados extraídos do site Themoviedb.org</span>
       </footer>
 
-      {movieList.length <= 0 ?
+      {netflixCategories.length <= 0 ?
         <div className='loading'>
           <img src='https://media.filmelier.com/noticias/br/2020/03/Netflix_LoadTime.gif' alt='Carregando' />
         </div>
