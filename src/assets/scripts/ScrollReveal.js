@@ -1,4 +1,4 @@
-import ScrollReveal from 'scrollreveal'
+import ScrollReveal from "scrollreveal";
 
 export function initScrollReveal() {
   const sr = ScrollReveal({
@@ -6,7 +6,7 @@ export function initScrollReveal() {
     distance: "50px",
     duration: 2000,
   });
-  
+
   sr.reveal(".delaySmallReveal", { delay: 200 });
   sr.reveal(".delayMediumReveal", { delay: 300 });
   sr.reveal(".delayLargeReveal", { delay: 400 });
