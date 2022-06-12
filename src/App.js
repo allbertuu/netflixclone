@@ -46,7 +46,7 @@ const App = () => {
     <div className="page">
       <Header black={blackHeader} />
 
-      {featureData && <FeatureMovie movie={featureData} />}
+      {featureData ? <FeatureMovie movie={featureData} /> : null}
 
       <section className="lista">
         {netflixCategories.map((category) => (
